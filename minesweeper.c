@@ -236,6 +236,7 @@ void setMines(){
     while(count < 10){
         //Setting 10 mines
         //Randomizing the row coordinate
+        //LIMITING RANDOMNESS FOR TESTING PURPOSES
         int x = rand() % gridSize;
         //Randomizing the col coordinate
         int y = rand() % gridSize;
